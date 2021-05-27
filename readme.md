@@ -1,7 +1,7 @@
 # 🔷 [수코딩](https://www.youtube.com/channel/UCzA62wwyiLnVnqFP4VEUOZg) 님의 HTML + CSS + JavaScript 를 활용한 미니 실습 예제 따라 만들기
 
 
-## ✅landingPage
+### ✅landingPage
 
 ### 타이핑 효과 랜딩 페이지 만들기
 
@@ -11,7 +11,7 @@
 
 가상요소에 효과를 주어 커서가 깜박이는 것 같이 만들기, 한글자씩 타이핑 하는것처럼 효과주는것은 기억해두면 좋을듯!
 
-## ✅webPage
+### ✅webPage
 
 ### HTML5, CSS 사용으로 웹 페이지 만들어보기
 
