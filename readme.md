@@ -1,4 +1,4 @@
-## 🔷 **수코딩** 님의 HTML + CSS + JavaScript 를 활용한 미니 실습 예제 따라 만들기
+## 🔷 [수코딩](https://www.youtube.com/channel/UCzA62wwyiLnVnqFP4VEUOZg) 님의 HTML + CSS + JavaScript 를 활용한 미니 실습 예제 따라 만들기
 
 ## ✅landingPage
 
