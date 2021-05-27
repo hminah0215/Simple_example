@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /*전체 선택자를 사용해서 간격을 줄어들게 하기위해 마진값등 0으로*/
+
+body {
+  background-color: darkslateblue;
+}
+
+/*글자를 수평과 수직 중앙에 오도록 조정, 아이콘 폰트는 css 텍스트 속성을 그대로 쓸수있다.*/
+.wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+/*로고아이콘의 크기를 키우기*/
+.material-icons {
+  font-size: 10rem;
+}
+
+.lg-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px; /*아래 글자와의 사이에 5px만큼 간격주기*/
+}
+
+.sm-text {
+  font-size: 1.5rem;
+}
+
+#dynamic {
+  position: relative;
+  display: inline-block; /*텍스트의 길이만큼 커서가 위치하도록*/
+}
+
+/* #dynamic에 after 라는 가상요소(p태그가 끝나기 바로전에 생김)에 css 적용해서 커서 모양처럼 보이게 표현*/
+#dynamic::after {
+  content: "";
+  display: block;
+  position: absolute; /*포지션 속성으로 항상 오른쪽에 커서가 위치하게 지정*/
+  top: 0;
+  right: -10px; /*텍스트와 커서가 너무 딱 붙어서 위치하니 여유 공간을 좀 줌*/
+  width: 4px;
+  height: 100%; /* p태그의 높이만큼 지정 */
+  background-color: white;
+}
+
+/* #dynamic.active 액티브란 클래스가 추가되면 커서가 안보이고, 다시 사라지면 커서가 보이도록 */
+#dynamic.active::after {
+  display: none;
+}
